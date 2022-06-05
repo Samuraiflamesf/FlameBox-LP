@@ -1,0 +1,136 @@
+:root{
+ --primary: #ED3A29;
+ --secondary:#696C71 ;
+ --third:#4B1814;
+ --gray: #242325;
+ --black: #050101;
+}
+
+body{
+    background-color: var(--black);
+    color: #fff;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .title{
+    text-transform: uppercase;
+    flex-direction: column;
+    text-align: center;
+    line-height:10px;
+}
+.title:hover{
+    color:var(--primary);
+    transition: 0.7s all;
+}
+
+li{
+    display:inline-block;
+    margin: 20px;
+    text-transform: uppercase;
+}
+a{
+    color:#fff;
+}
+a:hover{
+    color:#ED3A29;
+    padding:15px;
+    transition:0.5s all;
+}
+.inscrevase_btn{
+    border: 2px solid var(--primary);
+    padding: 10px;
+    border-radius: 21px 0px 21px 00px;
+}
+.inscrevase_btn:hover{
+    color:var(--black);
+    background-color:var(--primary);
+}
+h1{
+    font-weight: 800;
+}
+main{
+    display:flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2{
+    font-size: 3rem;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+.inscreva_se{
+    color: var(--primary);
+}
+p{
+    line-height:20px;
+    max-width: 90%;
+    font-family: poppinslight;
+}
+img{
+    display: flex;
+    width: 90%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.checkbox{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.check{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:baseline;
+    
+}
+.check p{
+    margin-left: 10px;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 45%;
+    margin: 20px;
+    color: #fff;
+    background-color: var(--primary);
+    font-weight:bold;
+}
+form [type="submit"]:hover{
+    height: 50px;
+    width: 45%;
+    color: var(--third);
+    background-color: var(--primary);
+    font-weight:bold;
+    cursor: pointer;
+}
+span{
+    text-decoration: underline;
+}
+span:hover{
+    cursor: pointer;
+    color:var(--primary);
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 15px 0px 0px 0px;
+    border: none;
+    font-size:15px;
+
+}

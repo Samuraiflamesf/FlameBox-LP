@@ -1,0 +1,64 @@
+@media screen and (max-width: 850px) {
+    header {
+        flex-direction:column;
+    }
+    main {
+        flex-direction:column;
+    }
+    h2 {
+        font-size:32px;       
+    }
+    form{
+        margin:0 auto;
+        width: 100%
+    }
+    input{
+        align-self: center;
+        width: 60%;
+    }
+    img{
+        margin-top: 10px;
+        margin: 0 auto;
+        width: 75%;
+    }
+    ul{
+        text-align: center;
+    }
+    h2{
+        text-align: center;  
+    }
+    .descr{
+        margin: 0 auto;
+        width: 75%;
+        text-align: center;
+    }
+    .checkbox{
+        display:flex;
+        justify-content: center;
+    }
+    .check{
+        width:30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items:center;
+        
+    }
+    form [type="submit"]{
+        height: 50px;
+        width: 30%;
+        margin: 20px;
+        color: #fff;
+        background-color: var(--primary);
+        font-weight:bold;
+    }
+    form [type="submit"]:hover{
+        height: 50px;
+        width: 30%;
+        color: var(--third);
+        background-color: var(--primary);
+        font-weight:bold;
+        cursor: pointer;
+    }
+    
+}
