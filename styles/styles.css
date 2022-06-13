@@ -91,11 +91,13 @@ form{
     justify-content: space-around;
 }
 .check{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items:baseline;
+    padding-bottom: 0px;
+    
     
 }
 .check p{
@@ -103,15 +105,14 @@ form{
 }
 form [type="submit"]{
     height: 50px;
-    width: 45%;
-    margin: 20px;
+    width: 100%;
     color: #fff;
     background-color: var(--primary);
     font-weight:bold;
 }
 form [type="submit"]:hover{
     height: 50px;
-    width: 45%;
+    width: 100%;
     color: var(--third);
     background-color: var(--primary);
     font-weight:bold;

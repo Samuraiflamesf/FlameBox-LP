@@ -19,7 +19,7 @@
     img{
         margin-top: 10px;
         margin: 0 auto;
-        width: 75%;
+        width: 50%;
     }
     ul{
         text-align: center;
@@ -37,12 +37,17 @@
         justify-content: center;
     }
     .check{
+        margin: 0 auto;
         width:30%;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         align-items:center;
         
+    }
+    .check p{
+        width: 100%;
+        margin-left: 0px;
     }
     form [type="submit"]{
         height: 50px;
@@ -61,4 +66,21 @@
         cursor: pointer;
     }
     
+}
+@media screen and (max-width: 380px) {
+    img{
+        display: none;
+    }
+    header {
+    flex-direction: row;
+    }
+    
+    header h1{
+        margin: 10px;
+        padding-top: 10px;
+    }
+    .inscrevase_btn{
+        font-size: 12px;
+        padding: 2px;
+    }
 }
