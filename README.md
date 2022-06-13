@@ -6,8 +6,8 @@
 
 | Implementações/Features  |   |
 | ------------------- | ------------------- |
-|  ( ) Adequar o size da imagem. <br> ( ) Botão de Ação Width 100% e Termos embaixo.  |  <img  src="https://github.com/Samuraiflamesf/Landing_page/blob/main/components/images/done/comment.png?raw=true"> |
- |  ( ) Colocar colapse no nav e modelo de 1 coluna (grid). | <img src='https://github.com/Samuraiflamesf/Landing_page/blob/main/components/images/done/comment_02.png?raw=true'> |
+|  [x] Adequar o size da imagem. <br> [x] Botão de Ação Width 100% e Termos embaixo.  |  <img  src="https://github.com/Samuraiflamesf/Landing_page/blob/main/components/images/done/comment.png?raw=true"> |
+ |  [x] Colocar colapse no nav e modelo de 1 coluna (grid). | <img src='https://github.com/Samuraiflamesf/Landing_page/blob/main/components/images/done/comment_02.png?raw=true'> |
 
    </div>
    <div align='right'>
